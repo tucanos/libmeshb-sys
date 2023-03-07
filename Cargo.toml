@@ -1,0 +1,9 @@
+[package]
+name = "marechal-libmeshb-sys"
+version = "0.1.0"
+edition = "2021"
+links = "Meshb.7"
+
+[build-dependencies]
+bindgen = "0.63.0"
+
