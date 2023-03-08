@@ -1,5 +1,5 @@
 [package]
-name = "marechal-libmeshb-sys"
+name = "libmeshb-sys"
 version = "0.1.0"
 edition = "2021"
 links = "Meshb.7"
