@@ -26,7 +26,7 @@ cargo add --git https://github.com/xgarnaud/libmeshb-sys.git
 To have `rpath` propagated to your executables add the following code to you `build.rs` (see this [bug report](https://github.com/rust-lang/cargo/issues/5077) for details).
 
 ```rust
-if let Ok(rpath) = std::env::var("DEP_MESHB_1_RPATH") {
+if let Ok(rpath) = std::env::var("DEP_MESHB.7_RPATH") {
     #[cfg(target_os = "macos")]
     println!("cargo:rustc-link-arg=-Wl,-rpath,{rpath}");
     #[cfg(target_os = "linux")]
