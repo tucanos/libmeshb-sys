@@ -5,5 +5,5 @@ edition = "2021"
 links = "Meshb.7"
 
 [build-dependencies]
-bindgen = "0.63.0"
+bindgen = "0.69"
 
