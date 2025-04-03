@@ -1,9 +1,9 @@
 [package]
 name = "libmeshb-sys"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 links = "Meshb.7"
 
 [build-dependencies]
-bindgen = "0.69"
+bindgen = "0.71.1"
 
